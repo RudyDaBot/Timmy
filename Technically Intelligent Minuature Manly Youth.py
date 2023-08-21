@@ -1,12 +1,14 @@
 import speech_recognition as sr
-import gtts
-from playsound import playsound
+import pyttsx3
 import os
 import time
 
 print("Initializing speech recognizer")
-
 r = sr.Recognizer()
+
+print("Setting up speech synthesis")
+speechS = pyttsx3.init()
+speechS.setProperty('rate', 130)
 
 while (True) :
 
@@ -19,20 +21,17 @@ while (True) :
 
     if (text == "how are you") : 
      os.system("echo I am fine, Thanks for asking!")
-     t1 = gtts.gTTS('I am fine, Thanks for asking!')
-     t1.save('erica.mp3')
-     playsound("erica.mp3")
+     speechS.say('I am fine, thank you!')
+     speechS.runAndWait()
     
     if (text == "open task manager") : 
-     t1 = gtts.gTTS('Opening task manager now.')
-     t1.save('erica.mp3')
-     playsound('erica.mp3')
+     speechS.say('Opening Task Manager')
+     speechS.runAndWait()
      os.system('taskmgr')
 
     if (text == "exit") :
-     t1 = gtts.gTTS('Exiting.')
-     t1.save('erica.mp3')
-     playsound("erica.mp3")
+     speechS.say('Exiting. Bye.')
+     speechS.runAndWait()
      break
      
 print("Timmy has been shut down. Closing CMD Window...")
