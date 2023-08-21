@@ -1,15 +1,15 @@
-#Timmy
+# Timmy
 Timmy - Technically Intelligent Miniature Manly Youth 
 
 install gtts, playsound and speech_recognition from pip before using!
 
 Head over to the Canary Branch for the most up to date (and the most unstable) release!
 
-#Changelog vA1
+# Changelog vA1
 
 This is the first release!
 
-#Plans for the future 
+# Plans for the future 
 
 1.Make it Manly and Young (it sounds like a middle aged woman)
 
