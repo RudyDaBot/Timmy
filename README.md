@@ -3,6 +3,11 @@ Timmy - Technically Intelligent Miniature Manly Youth
 
 install gtts, playsound and speech_recognition from pip before using!
 
+# Changelog AV1C (Alpha Version 1 Canary)
+
+Updated speech engine to pyttsx3. playsound and gtts are now gone.
+This was done for offline use, Manly Youth sound, more clean code, less lines, less jank.
+
 # Welcome to the canary branch! 
 
 This is where i will push each and every update i make to TIMMY.
