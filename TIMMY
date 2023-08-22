@@ -19,24 +19,23 @@ while (True) :
      text = r.recognize_google(audio) #Speech to text google recognizer
      print(text) #This is what you actually said
 
-    if (text == "how are you") : 
+    if text == "how are you" : 
      os.system("echo I am fine, Thanks for asking!")
-     speechS.say('I am fine, thank you!')
+     speechS.say('I am fine, thanks for asking!')
      speechS.runAndWait()
     
-    if (text == "open task manager") : 
-     speechS.say('Opening Task Manager')
+    if text == "what is your name" : 
+     speechS.say('My name is TIMMY. The Technically Intelligent Miniature Manly Youth')
      speechS.runAndWait()
-     os.system('taskmgr')
 
-    if (text == "exit") :
+    if text == "who created you" :
+      speechS.say("Rudy has created me. Check him out on GitHub. His name is RudyDaBot.")
+      speechS.runAndWait()
+
+    if text == "exit" :
      speechS.say('Exiting. Bye.')
      speechS.runAndWait()
      break
      
 print("Timmy has been shut down. Closing CMD Window...")
 time.sleep(5)
-
-    
-  
-
