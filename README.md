@@ -3,11 +3,13 @@ Timmy - Technically Intelligent Miniature Manly Youth
 
 install gtts, playsound and speech_recognition from pip before using!
 
-Head over to the Canary Branch for the most up to date (and the most unstable) release!
+# Welcome to the main branch
 
-# Changelog vA1
+Major and stable chnages will be pushed here. Till then, head over to the canary branch for daily updates.
 
-This is the first release!
+# Changelog vA1.1
+
+File has been renamed to TIMMY.py.
 
 # Plans for the future 
 
