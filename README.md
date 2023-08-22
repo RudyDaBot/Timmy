@@ -3,23 +3,24 @@ Timmy - Technically Intelligent Miniature Manly Youth
 
 install gtts, playsound and speech_recognition from pip before using!
 
-# Changelog AV1C (Alpha Version 1 Canary)
-
-Updated speech engine to pyttsx3. playsound and gtts are now gone.
-This was done for offline use, Manly Youth sound, more clean code, less lines, less jank.
-
 # Welcome to the canary branch! 
 
 This is where i will push each and every update i make to TIMMY.
 
+# Changelog AV2C (Alpha Version 2 Canary)
+
+Updated speech engine to pyttsx3. playsound and gtts are now gone.
+
+I just realized breackets are not required in if functions, so i removed them so it looks cleaner.
+
+Removed task manager command. Added "what is your name" and "who created you".
+
+I will add more conversation commands before i make a push to main.
+
 # Plans for the future 
 
-1.Make it Manly and Young (it sounds like a middle aged woman)
+1.Use the GPT API for more, *intelligent* reponses
 
-2.Use the GPT API for more, *intelligent* reponses
-
-3.clean up the code, looks like chaos in there
-
-4.Try and make some form of exe or easily accesssible opening mechanism, right now you
+2.Try and make some form of exe or easily accesssible opening mechanism, right now you
 need to open it from the command line, and ONLY THE COMMAND LINE.
 
