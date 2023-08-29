@@ -7,15 +7,11 @@ install gtts, playsound and speech_recognition from pip before using!
 
 This is where i will push each and every update i make to TIMMY.
 
-# Changelog AV2C (Alpha Version 2 Canary)
+# Changelog VA3C (Alpha Version 3 Canary)
 
-Updated speech engine to pyttsx3. playsound and gtts are now gone.
+Updated the file structure. This is in regard to a planned future update where TIMMY becomes modular with support for community-made modules. Stay Tuned for more updates.
 
-I just realized breackets are not required in if functions, so i removed them so it looks cleaner.
-
-Removed task manager command. Added "what is your name" and "who created you".
-
-I will add more conversation commands before i make a push to main.
+Exit Command is now gone. This new file structure somehow made TIMMY say everything twice with the exit function code. Till i am able to fix it, exit command is da gone.
 
 # Plans for the future 
 
@@ -24,3 +20,4 @@ I will add more conversation commands before i make a push to main.
 2.Try and make some form of exe or easily accesssible opening mechanism, right now you
 need to open it from the command line, and ONLY THE COMMAND LINE.
 
+3. Make TIMMY Modular with support for community made modules.
