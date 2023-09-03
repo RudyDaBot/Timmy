@@ -13,6 +13,10 @@ Updated the file structure. This is in regard to a planned future update where T
 
 Exit Command is now gone. This new file structure somehow made TIMMY say everything twice with the exit function code. Till i am able to fix it, exit command is da gone.
 
+# Known Issues 
+
+For some reason, you can only talk to timmy on 2 loops, on the third command timmy will not even hear what you said. I am looking into this right now but it is quite irritating.
+
 # Plans for the future 
 
 1.Use the GPT API for more, *intelligent* reponses
