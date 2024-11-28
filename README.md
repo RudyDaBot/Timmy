@@ -9,10 +9,10 @@ Your computer should meet the following (estimated) minimum requirements -
 
 **Operating system** -
 
-Windows 7+
-Debian 11+ and any distros derived.
-Fedora 35+ and any distros derived.
-Arch Linux and any modern-ish distros derived.
+Windows 7+, 
+Debian 11+ and any distros derived, 
+Fedora 35+ and any distros derived, 
+Arch Linux and any modern-ish distros derived, 
 MacOS High Sierra+ (this is a guess based on python, I do not have any mac hardware.)
 
 Note - Any other Linux Distro may be supported, like openSUSE and Gentoo, but I haven't tested them.
