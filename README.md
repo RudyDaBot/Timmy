@@ -11,7 +11,7 @@ Your computer should meet the following (estimated) minimum requirements -
 
 **RAM** - 4GB available for text tasks (10GB available for Vision Tasks).
 
-**CPU** - Dual Core, more than 2 ghz for text, Quad/Hexa Code, atleast 3-4Ghz for vision.
+**CPU** - Dual Core, more than 2 ghz for text, Quad/Hexa Core, atleast 3-4Ghz for vision.
 
 This can work on a Raspberry PI, (4 and 8GB variants, Gen4 or Gen5 recommended.) but vision tasks will most probably fail.
 
