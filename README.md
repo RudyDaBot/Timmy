@@ -7,21 +7,15 @@ DISCLAIMER - I can only guarantee Linux support. Some commands have Linux Termin
 
 Your computer should meet the following (estimated) minimum requirements - 
 
-**Operating system** -
+**Operating system** - Any modern OS that can comprehend the specs given. 
 
-Windows 7+, 
-Debian 11+ and any distros derived, 
-Fedora 35+ and any distros derived, 
-Arch Linux and any modern-ish distros derived, 
-MacOS High Sierra+ (this is a guess based on python, I do not have any mac hardware.)
+**RAM** - 4GB available for text tasks (10GB available for Vision Tasks).
 
-Note - Any other Linux Distro may be supported, like openSUSE and Gentoo, but I haven't tested them.
+**CPU** - Dual Core, more than 2 ghz for text, Quad/Hexa Code, atleast 3-4Ghz for vision.
 
-**RAM** - 4GB available
+This can work on a Raspberry PI, (4 and 8GB variants, Gen4 or Gen5 recommended.) but vision tasks will most probably fail.
 
-**CPU** - Ryzen 5, or 12th Gen onwards Core i5 
-
-**Dedicated GPU is recommended, follow Ollama's instructions to download AMD and CUDA support**
+**Dedicated GPU is recommended, follow Ollama's instructions to download AMD and Nvidia CUDA support. This is required for Vision based tasks.**
 
 Ollama does not support NPUs found on modern Copilot+ PCs, AI branded chipsets and Raspberry Pi AI addons (afaik).
 
