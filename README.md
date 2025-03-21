@@ -3,7 +3,7 @@ Timmy - Technically Intelligent Miniature Manly Youth
 
 # Requirements
 
-DISCLAIMER - I can only guarantee Linux support. Some commands have Linux Terminal calls that may not be the same on Windows or MacOS.
+DISCLAIMER - ATM, this is just a pretty much GUI/CLI interface built using python, do not worry, Timmy's own spice will be added when the time is right.
 
 Your computer should meet the following (estimated) minimum requirements - 
 
@@ -13,7 +13,7 @@ Your computer should meet the following (estimated) minimum requirements -
 
 **CPU** - Dual Core, more than 2 ghz for text, Quad/Hexa Core, atleast 3-4Ghz for vision.
 
-This can work on a Raspberry PI, (4 and 8GB variants, Gen4 or Gen5 recommended.) but vision tasks will most probably fail.
+This *can* work on a Raspberry PI, (4 and 8GB variants, Gen4 or Gen5 recommended.) but it will be *slow*.
 
 **Dedicated GPU is recommended, follow Ollama's instructions to download AMD and Nvidia CUDA support. This is required for Vision based tasks.**
 
@@ -37,16 +37,17 @@ This is where i will push each and every update i make to TIMMY.
 
 # Changelog V4C (Version 4 Canary)
 
-Big GigaChad move. Timmy now runs on Llama3.2. This allows for FAR more natural responses. However, audio support is being added later.
+Audio Support added, i think? Linux users may have varied mileage, but it works flawlessly-ish on Windows. Also the files are seperated and a config made for Timmy.
 
 # Known Issues 
 
-You must wait for the entire response to be generated. This is because with streaming responsed i.e. seeing the response as its being generated, i cannot, for the life of me, figure out how to add context support (the model remembering the conversation).
+Goofy audio support due to something going on with my own system, so i dont guarantee anything. You also need to execute the program with main.py being in and being called by a terminal in the same directory as config.json otherwise the program wont see anything.
 
 # Plans for the future 
 
-1. Compile the program to run on a singe Windows/Linux executable. I do not have the means to compile MacOS executables.
+1. Make this into a single executable.
 2. Internet Access using a (hopefully) clever solution i am developing.
-3. Add support for vision based models. Llama3.2-vision is not being used because, well, my system is not powerful enough to run it.
-4. Add Voice recognition and text-to-speech support.
-5. Make a nice GUI, but be advised, only expect this feature for wayland for the time being.
+3. Vision support, but also use deepseek r1 as the default model. its just, way better than Llama.
+5. GUI is in development, using PyQT (tkinter is absolute dogwater compared to this)
+6. Make an installer script to download everything, but making it download Ollama *might* go into some legal trouble territory.
+7. Deep integration with the operating system to make a kind of Copilot copy but for Linux.
