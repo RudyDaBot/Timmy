@@ -35,7 +35,7 @@ ollama install llama3.2
 
 This is where i will push each and every update i make to TIMMY.
 
-# Changelog V4C (Version 4 Canary)
+# Changelog V4.5C (Version 4.5 Canary) (this is a weird release to be frank)
 
 Audio Support added, i think? Linux users may have varied mileage, but it works flawlessly-ish on Windows. Also the files are seperated and a config made for Timmy.
 
