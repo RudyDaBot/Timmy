@@ -31,11 +31,11 @@ Install Llama 3.2 (support for vision models and other models in general coming 
 ollama install llama3.2
 ```
 
-# Welcome to the canary branch! 
+# Welcome to the main branch! 
 
-This is where i will push each and every update i make to TIMMY.
+This is where i will push mostly stable updates.
 
-# Changelog V4.5C (Version 4.5 Canary) (this is a weird release to be frank)
+# Changelog V4.5M (Version 4.5 Main) (this is a weird release to be frank)
 
 Audio Support added, i think? Linux users may have varied mileage, but it works flawlessly-ish on Windows. Also the files are seperated and a config made for Timmy.
 
